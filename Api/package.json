@@ -1,0 +1,28 @@
+{
+  "name": "api-git",
+  "version": "1.0.0",
+  "description": "Api feita para a construção do bot no blip",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "api",
+    "git",
+    "blip",
+    "take"
+  ],
+  "author": "Felipe Friedrich",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "swagger-ui-express": "^4.1.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
